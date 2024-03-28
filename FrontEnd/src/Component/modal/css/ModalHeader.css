@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-VariableFont_wght.ttf');
+}
+
+.header{
+    border-bottom: solid 3px #58595A;
+}
+.main-header-title{
+    margin-left: 10px;
+    color: black;
+    font-family: 'Nunito';
+    font-size: 20px;
+}
+.header-right-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.header-right-img{
+    width: 25px;
+    height: 25px;
+}
+.button-div{
+    margin-left: auto;
+    margin-right: 5px;
+}
+.button-close{
+    font-size: 20px;
+    color: black;
+}

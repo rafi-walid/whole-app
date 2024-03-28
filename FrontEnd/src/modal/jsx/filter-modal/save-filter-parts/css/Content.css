@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'nunito';
+    src: url('../../../../fonts/Nunito-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'BarlowSemiCondensed';
+    src: url('../../../../fonts/BarlowSemiCondensed-Regular.ttf');
+}
+
+.middle-content-first{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #D9D9D9;
+    position: relative;
+}
+
+/* THE RADIO BUTTON */
+
+.radio-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+  
+.radio-buttons-save {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.radio-button-label-save {
+    display: inline-block;
+    padding-left: 18px;
+    position: relative;
+    font-family: 'BarlowSemiCondensed';
+    font-size: 11px;
+    color: #909090;
+    cursor: pointer;
+}
+
+.radio-button-span-save {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #acaeb4;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.radio-buttons-save:checked + .radio-button-label-save .radio-button-span-save {
+    color: #3456cc;
+    border: 4px solid #3456cc;
+    background-color: white;
+}

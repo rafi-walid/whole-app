@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.Card-Container {
+    margin: 0 auto; 
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.Card {
+    display: flex;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.Left_Part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15rem;
+}
+
+.Card-header {
+    margin-right: 20px;
+    width: 100%;
+}
+
+.Black-title{
+    font-weight: 600;
+    width: 100%;
+    font-size: 14px;
+}
+.Muted-title{
+    font-weight: 600;
+    font-size: 13px;
+}
+.Muted-text{
+    font-size: 9px;
+    margin: 0;
+}
+.Description-text{
+    font-weight: 600;
+    color: black;
+    font-size: 10px;
+}
+.Right-Part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 6rem;
+    margin-left: 1rem;
+}
+
+.Right-Part > img {
+    padding: 1rem;
+    width: 75px;
+    height: 75px;
+}
+.Right-Part >div> i {
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .Favorites_Cards_Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Card-Container {
+        width: 90%;
+    }
+}
+  .Black-title {
+    color: #000000; 
+  }
+  

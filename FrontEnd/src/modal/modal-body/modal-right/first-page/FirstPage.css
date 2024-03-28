@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'nunito';
+    src: url('../../../../../public/fonts/Nunito-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'BarlowSemiCondensed';
+    src: url('../../../../../public/fonts/BarlowSemiCondensed-Regular.ttf');
+}
+
+.p1-body-content{
+    height: 100%;
+    padding: 30px;
+}
+
+.fcontent{
+    display: flex;
+    align-items: center;
+    flex: 80%;
+    height: 100%;
+}
+.fcontent h2{
+    font-size: 30px;
+    color: #4E85E3;
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;
+}
+
+.scontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 20%;
+}
+.welcomeimage{
+    width: 72px;
+    height: 78px;
+}
+
+.tcontent p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'nunito', sans-serif;
+    font-weight: 650;
+    padding-top: 15px;
+}
+.tcontent h5{
+    font-family: 'nunito', sans-serif;
+    font-weight: 900;
+}
+
+.upper-content{
+    display: flex;
+    height: 27%;
+}
+.middle-content{
+    height: 40%;
+}
+.bottom-content{
+    position: relative;
+    height: 33%;
+}
+.continue-btn{
+    color: #4E85E3;
+    border-color: #4E85E3;
+    font-weight: 600;
+    right: 0;
+    bottom: 0;
+    font-family: 'BarlowSemiCondensed', sans-serif;
+    position: absolute;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h5{
+    color: black !important;
+}
+p{
+    color: black !important;
+}

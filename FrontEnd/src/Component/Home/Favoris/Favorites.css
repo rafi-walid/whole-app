@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.Favorites_Container {
+    width: 100%;
+    padding: 0 1rem; 
+    box-sizing: border-box; 
+}
+
+.Favorites_items {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; 
+}
+
+.Favorites_items > i {
+    font-size: 1.5rem;
+    color: yellow;
+    margin-right: 0.5rem; 
+}
+
+.Favorites_items > p {
+    width: 12rem;
+    font-size: 1.6rem;
+    margin: 0; 
+    font-family: 'Nunito', sans-serif;
+    color: RGB(125,127,124);
+}
+
+.horizontal-line {
+    border: none;
+    width:  110rem;
+    border-top: 0.1rem solid RGB(125,127,124);
+    margin-top: 0.5rem;
+    margin-left: 0.6rem;
+    margin-right: 0;
+} 
+
+@media (max-width: 768px) {
+    .Favorites_items > i {
+        font-size: 1.2rem; 
+    }
+    
+    .Favorites_items > p {
+        font-size: 1.4rem; 
+    }
+    
+    .horizontal-line {
+        width: 70%; 
+    }
+}

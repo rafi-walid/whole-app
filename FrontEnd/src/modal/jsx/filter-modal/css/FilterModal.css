@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'nunito';
+    src: url('../../../fonts/Nunito-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'BarlowSemiCondensed';
+    src: url('../../../fonts/BarlowSemiCondensed-Regular.ttf');
+}
+
+.custom-backdrop-class{
+    z-index: 1057 !important;
+}
+.filter-modal-class{
+    z-index: 1058 !important;
+    margin-left: 3px;
+}
+.filter-modal-body{
+    border-radius: 3px !important;
+    color: black;
+}
+.filter-modal-upper-content{
+    display: flex;
+}
+
+/* UPPER FILTER */
+
+.first-customCheckBoxHolder {
+    margin: 0px;
+    margin-right: 0;
+    display: flex;
+    flex: 50%;
+}
+  
+.first-customCheckBox {
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    padding-right: 0;
+    border-radius: 0px;
+    display: flex;
+    height: 32px;
+    align-items: center;
+    outline: none;
+    justify-content: center;
+}
+
+.first-customCheckBox .first-inner {
+    font-family: 'BarlowSemiCondensed';
+    font-weight: 500;
+    color: #AEAAAA;
+    font-size: 16px;
+    font-weight: 550;
+    pointer-events: none;
+}
+.first-customCheckBox{
+    width: 100% !important;
+}
+
+.first-customCheckBoxInput {
+    display: none;
+}
+
+.first-customCheckBoxInput:checked + .first-customCheckBoxWrapper .first-customCheckBox {
+    border-bottom: 1.5px solid #4E85E3;
+}
+
+.first-customCheckBoxInput:checked + .first-customCheckBoxWrapper .first-customCheckBox .first-inner {
+    color: var(--filter_checked) !important;
+}
+
+.first-customCheckBox{
+    border-bottom: 1.5px solid #AEAAAA;
+}
+
+
+.first-customCheckBoxWrapper{
+    width: 100%;
+}
+
+/* SAVE FILTER */
+
+.second-customCheckBoxHolder {
+    margin: 0px;
+    display: flex;
+    flex: 50%;
+}
+  
+.second-customCheckBox {
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    padding: 2px 8px;
+    border-radius: 0px;
+    display: flex;
+    height: 32px;
+    align-items: center;
+    outline: none;
+    justify-content: center;
+}
+
+.second-customCheckBox .second-inner {
+    font-family: 'BarlowSemiCondensed';
+    color: #AEAAAA !important;
+    font-size: 16px;
+    font-weight: 550;
+    pointer-events: none;
+}
+.second-customCheckBox{
+    width: 100% !important;
+}
+
+.second-customCheckBoxInput {
+    display: none;
+}
+
+.second-customCheckBoxInput:checked + .second-customCheckBoxWrapper .second-customCheckBox {
+    border-bottom: 1.5px solid #4E85E3;
+}
+
+.second-customCheckBoxInput:checked + .second-customCheckBoxWrapper .second-customCheckBox .second-inner {
+    color: #4e85e3 !important;
+}
+
+.second-customCheckBox{
+    border-bottom: 1.5px solid #AEAAAA;
+}
+
+.second-customCheckBoxWrapper{
+    width: 100%;
+}
+
+/* MIDDLE CONTENT */
+
+.filter-modal-middle-content{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.save-filter-modal-middle-content{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+/* BOTTOM CONTENT */
+.filter-modal-bottom-content{
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.btn-clear-container{
+    flex: 31%;
+}
+.btn-clear-not-ready{
+    cursor: default;
+    border: 0;
+    background-color: transparent;
+    color: #797979;
+    font-size: 11px;
+}
+.btn-clear-ready{
+    cursor: pointer;
+    color: #016bff;
+}
+.btn-apply-container{
+    flex: 35%;
+}
+.btn-apply-not-ready{
+    background-color: var(--btn_not_ready);
+    cursor: default;
+    color:  var(--btn_not_ready_color);
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 4px;
+}
+.btn-apply-ready{
+    cursor: pointer;
+    background-color: #016bff;
+    color: white;
+}
+.btn-save-container{
+    flex: 33%;
+}
+.btn-save-not-ready{
+    cursor: default;
+    background-color: var(--btn_not_ready);
+    color: var(--btn_not_ready_color);
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 4px;
+}
+.btn-save-ready{
+    cursor: pointer;
+    background-color: #016bff;
+    color: white;
+}
+.btn-annuler{
+    cursor: pointer;
+    background-color: #016bff;
+    color: white;
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 4px;
+}

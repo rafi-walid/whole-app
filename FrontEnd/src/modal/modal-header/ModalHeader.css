@@ -1,0 +1,21 @@
+.w-modal-header{
+    font-size: '20px';
+    color: black !important;
+}
+.header{
+    border-bottom: solid 4px #aaa9a9;
+}
+.header-right-button {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.header-right-img{
+    width: 25px;
+    height: 25px;
+}
+.button-div{
+    margin-left: auto;
+}

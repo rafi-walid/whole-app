@@ -1,0 +1,77 @@
+option{
+    color: black;
+}
+.table_Container{
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.DataTable{
+    width: 100%;
+    border: 1px solid #8D8A8A;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.DataTable thead th {
+    border-bottom: 1.5px solid #8D8A8A;
+    color: black;
+  }
+.DataTable tr:not(:last-child) td {
+    border-bottom: 1px solid #8D8A8A;
+    color: black;
+  }
+
+/* -------------------------------------------------------------------------------------- */
+/* table header style  */
+
+.table_head_row{
+    border: 1 solid #8D8A8A;
+    background-color: transparent;
+    
+}
+.table_head_row th {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 6px;
+  }
+
+.table_head_row th{
+  background-color: transparent;
+}
+.thead_buttons{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    justify-content: center;
+    
+}
+.thead_buttons>span{
+    color: black;
+    padding: 0.5rem;
+    font-size: 12px;
+    align-self: center;
+    font-weight: 600;
+}
+.thead_buttons>i{
+    color: #8D8A8A;
+    align-self: flex-end;
+    font-size: 10px;
+    padding: 0.5rem;
+}
+/* -------------------------------------------------------------------------- */
+/* table body style  */
+
+.tbody_td{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+

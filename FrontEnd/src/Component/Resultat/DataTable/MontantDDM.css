@@ -1,0 +1,71 @@
+.Montant-options-dropdown {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 12rem;
+    left: 57rem; 
+    top: 25rem;
+    border-radius: 6px ;
+    
+}
+
+.Montant-option {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+}
+
+.Montant-option:hover {
+    background-color: #f1f1f1;
+}
+.padding_img{
+    padding-right: 0.5rem;
+}
+.gt_span{
+    color: black;
+    margin-left: 3.5rem;
+}
+.card_horizontalline{
+    border: none;
+    width:  10.5rem;
+    border-top: 0.1rem solid RGB(125,127,124);
+    margin-top: 0.5rem;
+    margin-left: 0.6rem;
+    margin-right: 0;
+}
+.submenu-content {
+    background-color: #fff; 
+    border: 1px solid rgba(0,0,0,.15); 
+    border-radius: .25rem; 
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.175); 
+    z-index: 1000; 
+  }
+  
+.submenu-trigger .submenu-content {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 30%;
+  z-index: 1000;
+}
+
+.submenu-trigger:hover .submenu-content {
+  display: block;
+}
+
+
+.submenu-content {
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+
+.submenu-content .dropdown-item {
+  padding: 5px 15px;
+}
+

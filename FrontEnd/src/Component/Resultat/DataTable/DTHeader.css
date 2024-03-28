@@ -1,0 +1,135 @@
+.rows-per-page-dropdown{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.rows-per-page-dropdown>label{
+    color: #8D8A8A;
+    padding-left: 17rem;
+    width: 25rem;
+}
+.rows-per-page-dropdown>select{
+    width: 4rem;
+}
+/* ------------------------------------------------------- */
+.table_header{
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    border: 1px solid #8D8A8A;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: space-between;
+}
+.Right_Side{
+    position: relative;
+    padding: 10px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Right_Side .add-to-fav-div{
+    z-index: 4000;
+    box-shadow: -3px 5px 15px 2px rgba(0, 0, 0, 0.1),
+    5px -3px 15px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 250px;
+    background-color: var(--favoris_card_background_color);
+    left: -240px;
+    top: 47px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+.upper-content-add-to-fav h4{
+    color: var(--black_to_white);
+    padding-bottom: 3px;
+    border-bottom: 1px solid #7e7d7e;
+}
+.middle-content-add-to-fav{
+    margin-top: 8px;
+}
+.middle-content-add-to-fav input{
+    width: 100%;
+    font-size: 12px;
+    padding: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: 1px solid var(--black_to_white);
+    color: var(--black_to_white);
+    background-color: transparent;
+}
+.bottom-content-add-to-fav{
+    margin-top: 8px;
+}
+.bottom-content-add-to-fav button{
+    font-size: 11px;
+    width: 100%;
+    border: 0;
+    background-color: #007bff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+.Right_Side>div>button{
+    margin: 5px;
+}
+.button_icon_hover:hover .icon{
+    color: white !important;
+}
+.right_btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.Export_DDmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------------------------------------- */
+.Left_Side>h3{
+    color: black;
+    font-weight: 600;
+}
+.SearchBar{
+    margin-left: 1rem;
+    display: flex;
+    align-items: flex-start;
+    width: 210px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid #8D8A8A;
+    
+}
+.SearchBar>input{
+    border-right: none;
+    background-color: transparent;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0.5rem;
+    flex: 80%;
+}
+.SearchBar>button{
+    background-color: transparent;
+    border: 0;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0.5rem;
+
+}
+.SearchBar>button>i{
+    padding: 6px;
+    background-color: transparent;
+    border: none;
+}
+.input-date-dtheader{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: transparent;
+}

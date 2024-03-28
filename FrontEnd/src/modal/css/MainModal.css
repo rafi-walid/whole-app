@@ -1,0 +1,19 @@
+.custom-modal-dialog {
+    max-width: 720px !important; /* Adjust the width as needed */
+}
+.modal-content{
+    background-color: var(--favoris_card_background_color) !important;
+}
+.custom-modal-dialog .modal-content{
+    border-radius: 12px !important;
+}
+.custom-close-modal-dialog .modal-content{
+    border-radius: 12px !important;
+}
+.custom-backdrop-close-class{
+    z-index: 1060 !important;
+}
+.closing-modal{
+    z-index: 1061 !important;
+    margin-left: 3px;
+}

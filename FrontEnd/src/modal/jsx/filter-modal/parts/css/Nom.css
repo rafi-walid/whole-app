@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'nunito';
+    src: url('../../../../fonts/Nunito-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'BarlowSemiCondensed';
+    src: url('../../../../fonts/BarlowSemiCondensed-Regular.ttf');
+}
+
+.middle-content-third{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--border_bottom_parts) !important;
+    position: relative;
+}
+.third-checkbox-container{
+    display: flex;
+    align-items: center;
+}
+.checkboxes{
+    display: none !important;
+}
+.the-checkbox{
+    position: relative;
+    width: 19px;
+    height: 19px;
+    border-radius: 2px;
+    background-color: #acaeb4;
+    cursor: pointer;
+    display: block;
+}
+.the-checkbox::after{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 5px;
+    height: 8px;
+    opacity: 0;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.checkboxes:checked ~ .the-checkbox {
+    border-color: transparent;
+    background: #016bff;
+}
+.checkboxes:checked ~ .the-checkbox::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+   }
+.checkbox-label{
+    font-family: 'BarlowSemiCondensed';
+    color: #909090;
+    font-size: 12px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+/* THE RADIO BUTTON */
+.third-checkbox-choices{
+    padding-left: 20px;
+    padding-right: 20px;
+}

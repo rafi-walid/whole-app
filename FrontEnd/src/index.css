@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap');
+
+*{
+  font-family: 'Nunito';
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--body_background);
+}
+:root {
+  --body_background: white;
+  --body_color: black;
+  --layout_container: rgb(44, 44, 44);
+  --f_page-header_color: black;
+  --search_input_background_color: #F8F8FA;
+  --search_input_text_color: black;
+  --favoris_card_background_color: white;
+  --favoris_card_title_color: black;
+  --favoris_card_description_color: black;
+  --favoris_card_muted_text_color: #6c757d;
+  --date_background_color: white;
+  --li_color : white;
+  --recents_color: black;
+  --table_button: white;
+  --search_header_icon: #016BFF;
+  --table_head_bg_color: #f0ecec;
+  --span_buttons_color: black;
+  --table_header_bg_color: white;
+  --status_all_bg_color: white;
+  --status_all_color: black;
+  --three_dots_vertical_color: #0D6EFD;
+  --filter_date: invert(0%);
+  --border_color: #58595A;
+  --progress-active-color: #007bff;
+  --upper_content_p: #58595A;
+  --select_option: white;
+  --select_option_border: black;
+  --options: white;
+  --search_span_i: #8d8a8a;
+  --white_to_black: white;
+  --placeholder: #818282;
+  --check_all_color: #277ADB;
+  --black_to_white: black;
+  --apply_btn: #4E85E3;
+  --btn_not_ready: #e2e2e2;
+  --btn_not_ready_color: #797979;
+  --filter_checked: #545252;
+  --border_bottom_parts: #D9D9D9;
+}
+
+[data-theme="dark"] {
+  --body_background: #242527;
+  --body_color: white;
+  --left-header: #3a3b3c;
+  --layout_container: #3a3b3c;
+  --f_page-header_color: white;
+  --border_header_input: #efefef;
+  --search_input_background_color: #3a3b3c;
+  --search_input_text_color: white;
+  --favoris_card_background_color: #3a3b3c;
+  --favoris_card_title_color: white;
+  --favoris_card_description_color: white;
+  --favoris_card_muted_text_color: #b8bbbf;
+  --date_background_color: #3a3b3c;
+  --li_color : #242527;
+  --recents_color: white;
+  --table_button: #3a3b3c;
+  --search_header_icon: #808080;
+  --table_head_bg_color: #4c5a698a;
+  --span_buttons_color: white;
+  --table_header_bg_color: #353c42;
+  --status_all_bg_color: transparent;
+  --status_all_color: white;
+  --three_dots_vertical_color: white;
+  --filter_date: invert(1000%);
+  --border_color: #7d7f7c;
+  --progress-active-color: #0464ca;
+  --upper_content_p: rgba(217, 217, 217, 0.6);
+  --select_option: rgba(217, 217, 217, 0.6);
+  --select_option_border: #999a9a;
+  --options: #999a9a;
+  --search_span_i: black;
+  --white_to_black: black;
+  --placeholder: #262727;
+  --check_all_color: white;
+  --black_to_white: white;
+  --apply_btn: #2973c8;
+  --btn_not_ready: #e2e2e22c;
+  --btn_not_ready_color: rgb(170, 167, 167);
+  --filter_checked: #4e85e3;
+  --border_bottom_parts: #6e6c6d;
+}
+
+button,i{
+  cursor: pointer;
+}
+
+
+
+input,h1{
+  color: black;
+}
+
+
+input:focus{
+  outline: none;
+}

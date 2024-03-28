@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'nunito';
+    src: url('../../../../../public/fonts/Nunito-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'BarlowSemiCondensed';
+    src: url('../../../../../public/fonts/BarlowSemiCondensed-Regular.ttf');
+}
+
+.p5-body-content{
+    height: 100%;
+}
+.p5-bottom-content{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-family: 'nunito', sans-serif;
+}

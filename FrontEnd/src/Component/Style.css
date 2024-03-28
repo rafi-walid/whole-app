@@ -1,0 +1,106 @@
+body{
+    background-color: var(--body_background);
+}
+.App_Container{
+    background-color: var(--body_background);
+}
+.Header_Container{
+    background-color: var(--left-header);
+}
+.Header_items{
+    background-color: var(--left-header);
+}
+.Layout_Container{
+    background-color: var(--layout_container);
+}
+.Home_Header_Container>div>h1{
+    color: var(--f_page-header_color);
+}
+.Searching_Form_container{
+    border: var(--border_header_input);
+    height: 77%;
+    background-color: var(--search_input_background_color);
+}
+.Searching_Form_container>input, .SearchBar>input{
+    color: var(--search_input_text_color);
+}
+.Card{
+    background-color: var(--favoris_card_background_color);
+}
+.Black-title{
+    color: var(--favoris_card_title_color);
+}
+.Description-text{
+    color: var(--favoris_card_description_color);
+}
+.Muted-title{
+    color: var(--favoris_card_muted_text_color);
+}
+.Muted-text{
+    color: var(--favoris_card_muted_text_color);
+}
+#date-fichier-recent{
+    background-color: var(--date_background_color);
+}
+.p-2 ul li{
+    color: var(--li_color);
+}
+.Rapport_title,.Rapport_date,.Rapport_description{
+    color: var(--recents_color);
+}
+.table_header{
+    background-color: var(--table_header_bg_color) !important;
+}
+.Left_Side h3{
+    color: var(--f_page-header_color) !important;
+}
+.SearchBar>button>i{
+    color: var(--search_header_icon) !important;
+}
+.table_head_row{
+    background-color: var(--table_head_bg_color) !important;
+}
+.thead_buttons>span{
+    color: var(--span_buttons_color) !important;
+}
+.tbody_td{
+    color: var(--span_buttons_color) !important;
+}
+.btn-outline-primary{
+    color: var(--three_dots_vertical_color);
+}
+.bi-save{
+    color: var(--three_dots_vertical_color) !important;
+}
+.bi-three-dots-vertical{
+    color: var(--three_dots_vertical_color) !important;
+}
+.status-all{
+    background-color: var(--status_all_bg_color);
+    color: var(--status_all_color) !important;
+}
+.status-all option{
+    background-color: var(--table_header_bg_color);
+    color: var(--span_buttons_color);
+}
+.type-all{
+    background-color: var(--status_all_bg_color);
+    color: var(--status_all_color) !important;
+}
+.type-all option{
+    background-color: var(--table_header_bg_color);
+    color: var(--span_buttons_color);
+}
+.input-date-dtheader{
+    color: var(--status_all_color);
+}
+.input-date-dtheader::-webkit-calendar-picker-indicator{
+    filter: var(--filter_date); 
+}
+.li_button{
+    color: var(--three_dots_vertical_color);
+}
+.disabled{
+    background-color: transparent !important;
+    color: var(--three_dots_vertical_color) !important;
+}

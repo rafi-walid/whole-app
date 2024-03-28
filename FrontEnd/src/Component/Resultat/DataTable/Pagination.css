@@ -1,0 +1,13 @@
+.Table_Pagination{
+    margin-top: 10px;
+}
+.li_button{
+    border-color: #8D8A8A !important;
+    background-color: transparent;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+.li_button:first-child{
+    border-radius: 10px;
+}

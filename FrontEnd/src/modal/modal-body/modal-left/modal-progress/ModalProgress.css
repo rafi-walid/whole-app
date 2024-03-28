@@ -1,0 +1,46 @@
+h6{
+    margin: 0;
+    padding: 0;
+    color: black !important;
+}
+.text-muted{
+    font-size: 12px;
+    color: #9b9a9a !important;
+}
+.body-progress-child-content{
+    display: flex !important;
+    width: 100%;
+    padding: 23px;
+    padding-left: 30px;;
+}
+.progress-title-desc{
+    flex: 70%;
+}
+.progress-pic-div{
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+}
+.progress-icon-div{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: #aaa9a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-icon-div img{
+    width: 25px;
+    height: 25px;
+}
+.active{
+    background-color: #007bff;
+}
+.white{
+    color: white;
+}
+.x{
+    font-size: 25px;
+    color: white;
+}

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'nunito';
+    src: url('../../../fonts/Nunito-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'BarlowSemiCondensed';
+    src: url('../../../fonts/BarlowSemiCondensed-Regular.ttf');
+}
+
+.p5-body-content{
+    height: 100%;
+}
+.p5-upper-content{
+    height: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 23px;
+}
+.p5-upper-content h4{
+    font-family: 'nunito', sans serif;
+    font-weight: 700;
+    color: var(--black_to_white);
+}
+.p5-upper-content p{
+    font-family: 'nunito', sans serif;
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-size: 9.5px !important;
+    color: var(--upper_content_p);
+}
+.span-p5{
+    font-family: 'nunito', sans serif;
+    font-weight: 600;
+    color: var(--black_to_white);
+}
+.span-p5-x{
+    font-family: 'nunito', sans serif;
+    font-weight: 500;
+    color: var(--upper_content_p);
+}
+.p5-bottom-content{
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    font-family: 'nunito', sans-serif;
+}
+/*NEXT AND PREVIOUS BUTTONS*/
+
+.btn-bottom{
+    background-color: white;
+}
+.next-label{
+    color: #4E85E3;
+    font-family: 'BarlowSemiCondensed-bold';
+    font-size: 11.5px !important;
+    cursor: pointer;
+}
+.previous-label{
+    color: black;
+    font-family: 'BarlowSemiCondensed-bold';
+    font-size: 11.5px !important;
+    cursor: pointer;
+}
+.btn-next{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    width: 94px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    color: #4E85E3;
+    border: 1.5px  solid #4E85E3;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-previous{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    width: 104px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    color: black;
+    border: 1.5px  solid black;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+.bi-arrow-left{
+    width: 20px !important;
+    height: 20px !important;
+}
+.bi-arrow-right{
+    color: #4E85E3 !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+.btn-bottom:hover .bi-arrow-right{
+    color: white !important;
+}
+.btn-bottom:hover .bi-arrow-left{
+    color: white !important;
+}
+.btn-next:hover{
+    background-color: #4e85e3 !important;
+}
+.btn-previous:hover{
+    background-color: black !important;
+}
+.btn-bottom:hover label{
+    color: white !important;
+}
+.btn-bottom label{
+    margin-top: 2px;
+}

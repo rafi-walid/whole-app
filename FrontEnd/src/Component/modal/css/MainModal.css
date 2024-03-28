@@ -1,0 +1,6 @@
+.custom-modal-dialog {
+    max-width: 720px !important; /* Adjust the width as needed */
+}
+.modal-content{
+    border-radius: 12px !important;
+}

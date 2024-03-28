@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-VariableFont_wght.ttf');
+}
+
+.close-modal-body{
+    padding-top: 0;
+}
+.close-modal-body-upper-div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.close-modal-body-upper-div i {
+    font-size: 40px;
+    color: var(--black_to_white) !important;
+}
+.close-modal-body-middle-div{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.close-modal-body-middle-div p{
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: bold;
+    color: var(--black_to_white);
+    font-size: 14px;
+}
+.close-modal-body-bottom-div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+}
+.close-modal-body-bottom-div
+.btn-annuler-closing-modal{
+    border: 0;
+    background-color: #4e85e3;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    font-family: 'Nunito';
+    font-size: 12px;
+}
+.btn-arreter-closing-modal{
+    border: 0;
+    background-color: #b50000;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    font-family: 'Nunito';
+    font-size: 12px;
+}

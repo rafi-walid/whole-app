@@ -1,0 +1,103 @@
+.body-progress-bar-div{
+    flex: 1.8%;
+}
+.f-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 11.3%;
+}
+.f-bar{
+    height: 100%;
+    width: 15%;
+    background-color: var(--border_color);
+}
+.f-circle-div{
+    display: flex;
+    justify-content: center;
+    height: 4.8%;
+}
+.f-circle {
+    height: 100%;
+    width: 14.5px;
+    background-color: var(--border_color);
+    border-radius: 50%;
+}
+.s-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 16%;
+}
+.s-bar{
+    height: 100%;
+    width: 15%;
+    background-color: var(--border_color);
+}
+.s-circle-div{
+    display: flex;
+    justify-content: center;
+    height: 4.8%;
+}
+.s-circle {
+    height: 100%;
+    width: 14.5px;
+    background-color: var(--border_color);
+    border-radius: 50%;
+}
+.t-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 16%;
+}
+.t-bar{
+    height: 100%;
+    width: 15%;
+    background-color: var(--border_color);
+}
+.t-circle-div{
+    display: flex;
+    justify-content: center;
+    height: 4.8%;
+}
+.t-circle {
+    height: 100%;
+    width: 14.5px;
+    background-color: var(--border_color);
+    border-radius: 50%;
+}
+
+.fo-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 16%;
+}
+.fo-bar{
+    height: 100%;
+    width: 15%;
+    background-color: var(--border_color);
+}
+.fo-circle-div{
+    display: flex;
+    justify-content: center;
+    height: 4.8%;
+}
+.fo-circle {
+    height: 100%;
+    width: 14.5px;
+    background-color: var(--border_color);
+    border-radius: 50%;
+}
+
+.fi-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 21.6%;
+}
+.fi-bar{
+    height: 100%;
+    width: 15%;
+    background-color: var(--border_color);
+}
+
+.active-circle{
+    background-color: var(--progress-active-color);
+}

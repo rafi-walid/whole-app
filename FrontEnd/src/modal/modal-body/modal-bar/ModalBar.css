@@ -1,0 +1,103 @@
+.body-progress-bar-div{
+    flex: 2%;
+}
+.f-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 15%;
+}
+.f-bar{
+    height: 100%;
+    width: 20%;
+    background-color: #aaa9a9;
+}
+.f-circle-div{
+    display: flex;
+    justify-content: center;
+    height: 4.5%;
+}
+.f-circle {
+    height: 100%;
+    width: 20.25px;
+    background-color: #aaa9a9;
+    border-radius: 50%;
+}
+.s-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 16%;
+}
+.s-bar{
+    height: 100%;
+    width: 20%;
+    background-color: #aaa9a9;
+}
+.s-circle-div{
+    display: flex;
+    justify-content: center;
+    height: 4.5%;
+}
+.s-circle {
+    height: 100%;
+    width: 20.25px;
+    background-color: #aaa9a9;
+    border-radius: 50%;
+}
+.t-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 16%;
+}
+.t-bar{
+    height: 100%;
+    width: 20%;
+    background-color: #aaa9a9;
+}
+.t-circle-div{
+    display: flex;
+    justify-content: center;
+    height: 4.5%;
+}
+.t-circle {
+    height: 100%;
+    width: 20.25px;
+    background-color: #aaa9a9;
+    border-radius: 50%;
+}
+
+.fo-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 16%;
+}
+.fo-bar{
+    height: 100%;
+    width: 20%;
+    background-color: #aaa9a9;
+}
+.fo-circle-div{
+    display: flex;
+    justify-content: center;
+    height: 4.5%;
+}
+.fo-circle {
+    height: 100%;
+    width: 20.25px;
+    background-color: #aaa9a9;
+    border-radius: 50%;
+}
+
+.fi-bar-div{
+    display: flex;
+    justify-content: center;
+    height: 19%;
+}
+.fi-bar{
+    height: 100%;
+    width: 20%;
+    background-color: #aaa9a9;
+}
+
+.active{
+    background-color: #007bff;
+}

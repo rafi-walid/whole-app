@@ -1,0 +1,234 @@
+*{
+    color: white;
+}
+p{
+    color: black;
+}
+
+
+.Layout_Container{
+    position: fixed;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 14rem;
+    height: 100vh;
+    padding: 0 1.5rem;
+}
+
+
+.Gecimmo-full-logo{
+    padding: 1rem 2rem;
+    border-bottom: 0.1rem solid black;
+
+}
+
+.Footer_item>button{
+    border: 0 solid;
+    padding: 0.4rem 0; 
+    font-size: 1rem;
+    color:  white;
+    background-color: transparent;
+    letter-spacing: 0.02rem;
+    cursor: pointer;
+}
+.Footer_item>button>span{
+    font-size: 14px;
+}
+
+.Footer_Container{
+    
+    bottom: 0px;
+}
+
+.Footer_item>button>i{
+     margin-right:  0.9rem; 
+}
+.Layout_Container_Footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.lastNavbar{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.navbar_Section_name{
+    opacity: 70%;
+    font-size: 12px;
+    color: #8D8A8A !important;
+}
+
+.Main_Content_items>p{
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.Main_Content_item{
+    padding-bottom: 1rem;
+}
+
+.Main_Content_item>button{
+    background-color: transparent;
+    border: 0 solid;
+}
+.Main_Content_item>button>span{
+    font-size: 14px;
+}
+
+
+.Main_Content_item>button>i{
+    margin-right: 1rem;
+}
+
+.Main_Content_item:nth-child(3)>button>i{
+    color: yellow;
+}
+
+.Header_Logo{
+    width: 9rem;
+    padding: 1rem 0.5rem;
+}
+
+
+
+.Header_item >img {
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.514);
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.Header_item >button{
+    background-color: transparent;
+    border: 0 solid;
+    margin: 0.5rem 0;
+}
+.Header_item >button>span{
+    font-size: 14px;
+}
+.Header_item>button>i{
+    padding-right: 0.4rem;
+    font-size: 1rem;
+}
+
+.Header_item:nth-child(3) >button>i{
+    font-size: 2rem;
+}
+.Header_item:nth-child(3) >button>span{
+    font-size: 1.2rem;
+}
+
+.Header_item:nth-child(3)>button{
+    background-color: #277ADB;
+    padding: 0.5rem   ;
+    border-radius: 0.6rem;
+    display: flex;
+    align-items: center;
+    width: 14rem;
+}
+.sidebar_arrow{
+    padding-left: 1rem;
+    margin-bottom: 0.2rem;
+    
+}
+.sidebar_arrow>i{
+    font-size: 2rem;
+}
+.sidebar_plus>button{
+    border: transparent;
+}
+.sidebar_plus>button>i{
+    
+    font-size: 1rem;
+}
+.sidebar_plus:nth-child(3) >button>i{
+    font-size: 1.3rem;
+}
+
+.sidebar_plus:nth-child(3)>button{
+    background-color: #277ADB;
+    padding: 10px  15px ;
+    border-radius: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////:footer_cas2 */
+.Footer_first_section{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Footer_item2>button{
+    
+    border: 0 solid;
+    border-radius: 0.2rem;
+    font-size: 2rem;
+    color:  white;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0.1rem;
+    margin-top: 0.8rem;
+    margin-left: 0.7rem;
+}
+.navbar_Section_name{
+    margin: 0;
+}
+
+
+.Footer_item2>button>i{
+     font-size: 2rem;
+     margin-left: 0.3rem;
+}
+
+
+
+
+.lastNavbar2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.lastNavbar2>i{
+    margin-left: 0.5rem !important;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////main_cas2 */
+
+.Main_Content_items2{
+    margin-top: 5px;
+}
+.Main_Content_item2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.Main_Content_item2>button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+
+.Main_Content_item2:nth-child(2)>button>i{
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.Main_Content_item2:nth-child(3)>button>i{
+    color: yellow;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+
+

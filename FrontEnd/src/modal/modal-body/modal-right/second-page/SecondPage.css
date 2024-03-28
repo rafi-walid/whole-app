@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'nunito';
+    src: url('../../../../../public/fonts/Nunito-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'BarlowSemiCondensed';
+    src: url('../../../../../public/fonts/BarlowSemiCondensed-Regular.ttf');
+}
+
+.p2-body-content{
+    height: 100%;
+}
+.p2-upper-content{
+    height: 50%;
+    padding: 30px;
+    position: relative;
+}
+.p2-upper-content h4{
+    font-family: 'nunito', sans serif;
+    font-weight: 700;
+    color: black !important;
+}
+.p2-upper-content p{
+    font-family: 'nunito', sans serif;
+    font-weight: 500;
+    color: #58595A;
+}
+.hidden {
+    display: none;
+}
+.first-select{
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 17px;
+    font-family: 'nunito', sans serif;
+    font-weight: bold;
+    width: 40%;
+}
+.next-button{
+    width: 32px;
+    height: 32px;
+}
+.welcomeimage{
+    fill: black;
+}
+.p2-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-family: 'nunito', sans-serif;
+}
